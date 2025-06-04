@@ -16,9 +16,9 @@ export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Replace these with your actual EmailJS IDs from your EmailJS dashboard
-  const SERVICE_ID = "service_dlybwjq";
-  const TEMPLATE_ID = "template_286gy8h";
-  const USER_ID = "YJTaLRhvjSHP-HSYe"; // EmailJS public key
+  const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const USER_ID = import.meta.env.VITE_EMAILJS_USER_ID;
 
   const handleSubmit = (e) => {
     e.preventDefault();
