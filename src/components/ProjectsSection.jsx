@@ -4,32 +4,32 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "E-commerce application",
+    description: "A modern and fully functional E-commerce application using Stripe to store products/checkout, made with NextJS, Typescript, Tailwind and Zustand.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["NextJS", "Typescript", "TailwindCSS", "Stripe", "Zustand"],
+    demoUrl: "https://nextjs-stripe-full-stack-ecommerce.vercel.app/",
+    githubUrl: "https://github.com/JaysinhMaher/nextjs-stripe-full-stack-ecommerce-app",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "RefugeEAP",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Modern, informative full stack application using NextJS, Node, Typescript, Prisma for AWS hosting and TailwindCSS for a responsive design. It incorporates Google Auth for accounts, 2 factor email auth codes, forums, blogs, padlet integration and much more. Please note the AWS server is no longer being hosted so this project is not hosted for demo.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["TypeScript", "NextJS", "Prisma", "AWS hosting", "TailwindCSS"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/JaysinhMaher/refugeap-nextjs-app",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Freelance project",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A slick and professional page for a local PC build/clean/repair shop undergone as private freelance work, created with bootstrap and javascript. Note: The social URL's are disabled for customer privacy reasons.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Bootstrap", "Javascript", "CSS"],
+    demoUrl: "https://nifty-builds.vercel.app/",
+    githubUrl: "https://github.com/JaysinhMaher/nifty-builds",
   },
 ];
 
@@ -44,7 +44,7 @@ export const ProjectsSection = () => {
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          crafted with attention to detail, performance, and user experience. This vite portfolio can also be found on my github.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

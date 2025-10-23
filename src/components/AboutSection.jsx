@@ -26,19 +26,19 @@ export const AboutSection = () => {
             "
           >
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
+              Having graduated with a first in software engineering from the University Of Leicester, I've found a passion for web development, I adore
+              creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
 
             <p className="text-muted-foreground">
               I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
+              problems, and I'm eager to learn new technologies and
+              techniques to define myself in the ever-evolving web
               landscape.
             </p>
 
@@ -64,7 +64,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
+                    Creating responsive, engaging and stylistic web applications with
                     modern frameworks.
                   </p>
                 </div>
@@ -78,8 +78,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Designing aesthetic and intuitive user interfaces that offer a seamless user
+                    experience.
                   </p>
                 </div>
               </div>
@@ -90,10 +90,9 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Eager to learn</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    I am passionate about web development and am eager to learn about new technologies/frameworks entering the space.
                   </p>
                 </div>
               </div>
